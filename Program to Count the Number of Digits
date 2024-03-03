@@ -13,5 +13,5 @@ int main() {
     ++count;
   } while (n != 0);
 
-  printf("Number of digits: %d", count);
+    printf("Number of digits: %d", count);
 }
