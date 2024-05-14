@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Structure to represent a process
-struct Process {
+  struct Process {
     int processId;  // Process ID
     int arrivalTime; // Arrival Time
     int burstTime;   // Burst Time
