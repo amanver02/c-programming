@@ -11,7 +11,7 @@
 // Function to calculate turnaround time and waiting time
 void calculateTimes(struct Process processes[], int n) {
     int currentTime = 0;
-
+ 
     for (int i = 0; i < n; i++) {
         // If the process has not arrived yet, wait for it to arrive
         if (currentTime < processes[i].arrivalTime) {
