@@ -3,7 +3,7 @@
 // Structure to represent a process
    struct Process {
     int processId;  // Process ID
-    int arrivalTime; // Arrival Time
+     int arrivalTime; // Arrival Time
     int burstTime;   // Burst Time
     int completionTime; // Completion Time
 };
